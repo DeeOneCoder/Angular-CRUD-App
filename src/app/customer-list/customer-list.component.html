@@ -1,0 +1,29 @@
+<h2 style="color:darkblue; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Customer List
+</h2>
+<table class="table table-striped" style="padding:15px;">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>E-mail</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let customer of customers">
+            <td> {{customer.firstName}} </td>
+            <td> {{customer.lastName}} </td>
+            <td> {{customer.emailId}} </td>
+            <td>
+                <button (click)="updateCustomer(customer.id)" class="btn btn-primary"
+                    style="margin-right: 5px;">Update</button>
+                <button (click)="deleteCustomer(customer.id)" class="btn btn-warning"
+                    style="margin-right: 5px;">Delete</button>
+                <button (click)="viewCustomer(customer.id)" class="btn btn-primary"
+                    style="margin-right: 5px;">View</button>
+
+            </td>
+        </tr>
+    </tbody>
+
+</table>

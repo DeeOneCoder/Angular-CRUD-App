@@ -1,0 +1,27 @@
+<div class="container" style="width:600px; position:relative; align-self:center;">
+    <h3>Update Customer</h3>
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label>First name:</label>
+            <input type="text" class="form-control" id="firstName" [(ngModel)]="customer.firstName" name="firstName"
+                value="{{customer.firstName}}">
+        </div>
+        <div class="form-group">
+            <label>Last name:</label>
+            <input type="text" class="form-control" id="lastName" [(ngModel)]="customer.lastName" name="lastName">
+        </div>
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="text" class="form-control" id="emailId" [(ngModel)]="customer.emailId" name="emailId">
+        </div>
+
+        <div class="form-group">
+            <label>Opening Balance:</label>
+            <input type="number" class="form-control" id="accountBalance" [(ngModel)]="customer.accountBalance"
+                name="accountBalance" value="0.0" required="required">
+        </div>
+
+        <button class="btn btn-success" type="submit">Submit</button>
+    </form>
+
+</div>

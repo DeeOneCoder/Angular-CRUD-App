@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    align-items: center;
+    height: 43px;
+}
+
+.container {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+
+}
+
+.btn-warning {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.btn-warning:hover {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    margin: 0px -2px 0px 0px;
+}
+
+.navbar {
+    padding: 10px;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    padding: 12px;
+}
+
+.container-footer {
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    align-items: center;
+    height: 68px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
