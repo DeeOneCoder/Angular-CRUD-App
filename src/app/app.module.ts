@@ -8,6 +8,7 @@ import { CreateCustomerComponent } from './create-customer/create-customer.compo
 import { FormsModule } from '@angular/forms';
 import { UpdateCustomerComponent } from './update-customer/update-customer.component';
 import { CustomerDetailsComponent } from './customer-details/customer-details.component';
+import { AddDepositComponent } from './add-deposit/add-deposit.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CustomerDetailsComponent } from './customer-details/customer-details.co
     CustomerListComponent,
     CreateCustomerComponent,
     UpdateCustomerComponent,
-    CustomerDetailsComponent
+    CustomerDetailsComponent,
+    AddDepositComponent
   ],
   imports: [
     BrowserModule,
