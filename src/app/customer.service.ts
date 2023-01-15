@@ -9,7 +9,9 @@ import { Customer } from './customer';
 export class CustomerService {
 
 
-  private baseURL = "http://localhost:8080/api/v1/customers";
+  private baseURL = "https://latest-deploy-y6pgg27sca-ew.a.run.app/api/v1/customers";
+  // private baseURL = "http://localhost:8080/api/v1/customers";
+  //private baseURL = "https://ecstatic-branch-368109.ew.r.appspot.com/";
 
   constructor(private httpClient: HttpClient) { }
 

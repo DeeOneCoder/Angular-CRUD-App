@@ -21,11 +21,6 @@ export class UpdateCustomerComponent implements OnInit {
       this.customer = data;
       this.goToCustomerList();
     });
-
-
-
-
-
   }
 
   ngOnInit(): void {
